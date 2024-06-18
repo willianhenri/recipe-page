@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+b {
+    color: hsl(24, 5%, 18%);
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    margin: 50px 0px;
+}
+
+.initial,
+.instrutions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    width: 550px;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+.preparation {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.preparation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.preparation li {
+    font-size: 14px;
+}
+
+.preparation h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.ingredientes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+
+.instrutions h2 {
+    margin-top: 30px;
+}
+
+
+.lista {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#nutrition {
+    margin-bottom: 15px;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.tr {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    padding-bottom: 10px;
+}
+
+.no-line {
+    border-bottom: none;
+}
+
+.line-hard {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.568);
+}
+
+.i {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+span {
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+}
+
+
+.image {
+    width: 100%;
+    display: flex;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+
+    .container{ 
+        margin: 0;
+    }
+
+    h1 {
+        font-family: 'Young Serif', serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    
+    p {
+        color: hsl(30, 10%, 34%);
+        width: 300px;
+        font-size: 14px;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+}
